@@ -18,9 +18,7 @@ public final class ExtractTextByPages
 			tStripper.setStartPage(start);
 			tStripper.setEndPage(stop);
 			
-			text = tStripper.getText(document);		
-			
-			System.out.println(text);
+			text = tStripper.getText(document);				
 		}
 		catch(IOException e){			
 		}
