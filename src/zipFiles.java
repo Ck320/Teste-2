@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+import javax.swing.JOptionPane;
+
 /*
  * Classe responsavel por Zipar os arquivos CSVs
  */
@@ -38,5 +40,7 @@ public class zipFiles
         }
         zipOut.close();
         fos.close();
+        String message = "Teste_Intuitive_Care_{Mauricio_Sugimoto_Polloni}.zip has been created";
+        JOptionPane.showMessageDialog(null,message);
     }
 }

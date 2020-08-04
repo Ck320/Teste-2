@@ -22,8 +22,7 @@ public class Teste_2 {
 		new CreateFile("quadro31", quadro31.getResult());
 		new CreateFile("quadro32", quadro32.getResult());
 		
-		new zipFiles();
-		
+		new zipFiles();		
 	}
 
 }
